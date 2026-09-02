@@ -113,7 +113,7 @@ print(a/b)
 print(a//b)
 print(a%b)
 print(a**b)
-print(type(a+b))
+print(type(a+b)) #Error will occur as division by zero is not defined
 
 #Q14
 a=True
