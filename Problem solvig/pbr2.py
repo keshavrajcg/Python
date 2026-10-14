@@ -400,23 +400,102 @@
 # print("Total Passed :" , Pass)
 # print("Total Failed :" , Fail)
 
-#Q1
-Vowel=0
-Consonant=0
-Digit=0
-Speicalchr=0
+# #Q1
+# Vowel=0
+# Consonant=0
+# Digit=0
+# Speicalchr=0
 
-m=input("Enter strings")
+# m=input("Enter strings")
 
-if m =="aeiouAEIOU":
-    Vowel+=2
-    if m >="A" or m <="Z" or m>="a" or m<="z":
-        Consonant+=1
-    if m>=0 and m <=9:
-        Digit+=3
-    else:
-        Speicalchr+=4
-print(Vowel, Consonant, Digit, Speicalchr)
+# if m =="aeiouAEIOU":
+#     Vowel+=2
+#     if m >="A" or m <="Z" or m>="a" or m<="z":
+#         Consonant+=1
+#     if m>=0 and m <=9:
+#         Digit+=3
+#     else:
+#         Speicalchr+=4
+# print(Vowel, Consonant, Digit, Speicalchr)
 
-#Q4
+# #Q4
+# character=0
+# uppercase=0
+# lowercase=0
+# digit=0
+# speical_character=0
 
+# for i in range (5):
+#     pas=input("Enter password :")
+#     if len(pas) < 8:
+#         print("Must contain 8 characters")
+#     if len(pas) >=8:
+#         character+=1
+#     if pas >="a" or pas <="z":
+#         lowercase+=1
+#     elif print("must contain a-z"):
+
+#         if pas >="A" or pas<="Z":
+#             uppercase+=1
+        
+#     if pas >="0" or pas <="9":
+#         digit+=1
+#     else:
+#         speical_character+=1
+
+# if character >= 8 :
+#     print("Strong password")
+# if character>=5:
+#     print("Medium password")
+# if character>=3:
+#     print("Weak password")
+# else:
+#     print("Invalid")
+
+
+# #
+# for i in range(5):
+#     pas = input("Enter password: ")
+
+#     character = 0
+#     uppercase = 0
+#     lowercase = 0
+#     digit = 0
+#     special_character = 0
+
+#     # Check length
+#     if len(pas) >= 8:
+#         character = 1
+
+#     # Check every character
+#     for ch in pas:
+#         if ch >= "a" and ch <= "z":
+#             lowercase = 1
+
+#         elif ch >= "A" and ch <= "Z":
+#             uppercase = 1
+
+#         elif ch >= "0" and ch <= "9":
+#             digit = 1
+
+#         else:
+#             special_character = 1
+
+#     total = character + uppercase + lowercase + digit + special_character
+
+#     if total == 5:
+#         print("Strong")
+#     elif total >= 3:
+#         print("Medium")
+#     else:
+#         print("Weak")
+
+#Q5
+n=input("enter a word :")
+
+if len(n)>6:
+        print("Long")
+elif len(n)>=4:
+        print("Medium")
+elif len(n)<=3:
+        print("Short")
